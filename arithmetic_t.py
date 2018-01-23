@@ -12,7 +12,7 @@ def list_append():
 def list_add():
 	li = []
 	for i in range(0,10000):
-		li = li + [i]
+		li = li + [i] # li = li + [i] 与 li += [i] 不相同
 
 
 def list_producter():
