@@ -1,0 +1,17 @@
+
+
+# arithmetic --> 
+#
+# fixed_length_calculation -> 
+#
+#  linear_list_principle -> 
+#  liner_list_linked     -> 
+
+├── A_Guide_Index.txt     --------> 文件结构的介绍：
+├ 学习的顺序：
+├── arithmetic_t.py --->  算法的实例比较
+├── fixed_length_calculation.py ------> 从一个问题引出的算法
+├── linear_list_principle.py ---------> 线性表（存储结构）
+├── liner_list_linked.py -------------> 链表  （存储结构）
+├── stack_queue.py -------------------> 栈、队列（时序结构）
+└── algorithm_sorting.py -------------> 排序算法 

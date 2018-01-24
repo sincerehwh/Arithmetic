@@ -9,12 +9,13 @@ def system_message(): # 获取系统的信息，这也是我机器的运行信�
     print(platform.machine())         #计算机类型，
     print(platform.node())            #计算机的网络名称，
     print(platform.processor())       #计算机处理器信息，
-    # Darwin-17.3.0-x86_64-i386-64bit
-	# Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64
-	# ('64bit', '')
-	# x86_64
-	# HH.local
-	# i386
+#  测试使用的机器数据：	
+#   Darwin-17.3.0-x86_64-i386-64bit
+#   Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64
+#   ('64bit', '')
+#   x86_64
+#   HH.local
+#   i386
 
  # system_message()
 
