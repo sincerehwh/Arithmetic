@@ -124,16 +124,32 @@
 #       │ ┌─────┬──────┐     ┌──────┬──────┐    ┌──────┬──────┐     ┌──────┬──────┐
 #       └▶│ elem│ next ├────▶│ elem │ next │... │ elem │ next ├────▶│ elem │ blank│
 #         └─────┴──────┘     └──────┴──────┘    └──────┴──────┘     └──────┴──────┘
+# 
 # 单链表操作：
 # 
-# is_empty() 判断链表是否为空
-# length() 返回链表的长度
-# travel() 遍历
-# add(item) 在头部添加一个节点
-# append(item) 在尾部添加一个节点
-# insert(pos, item) 在指定位置pos添加节点
-# remove(item) 删除一个节点
-# search(item) 查找节点是否存在
+#   is_empty() 判断链表是否为空
+#   length() 返回链表的长度
+#   travel() 遍历
+#   add(item) 在头部添加一个节点
+#   append(item) 在尾部添加一个节点
+#   insert(pos, item) 在指定位置pos添加节点
+#   remove(item) 删除一个节点
+#   search(item) 查找节点是否存在
+#
+# 双向链表：
+# 	┌───┐    ┌───┬────────┬───┬───▶┌───┬────────┬───┬───▶┌───┬────────┬───┐
+# 	│ p ├───▶│nil│ element│ n │    │ p │ element│ n │    │ p │ element│nil│
+# 	└───┘    └───┴────────┴───┘◀───┴───┴────────┴───┘◀───┴───┴────────┴───┘
+#
+# 双链表操作：
+#   is_empty() 判断链表是否为空
+#   length() 返回链表的长度
+#   travel() 遍历
+#   add(item) 在头部添加一个节点
+#   append(item) 在尾部添加一个节点
+#   insert(pos, item) 在指定位置pos添加节点
+#   remove(item) 删除一个节点
+#   search(item) 查找节点是否存在
 
 
 
